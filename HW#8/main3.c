@@ -11,10 +11,11 @@ void get_binary(int n){
         printf("%d",num[i]);
         if(i==3) printf(" ");
     }
+    printf("\n");
 }
 int main(){
-    int n=6;
-    get_binary(n);
+    get_binary(6);
+    get_binary(16);
+    get_binary(255);
     return 0;
 }
-// 不知道這題的值要設甚麼，所以設了第一個範例:6
