@@ -1,0 +1,104 @@
+main1 :
+  用已規定的方式規範去
+  full pyramid of *
+  int rows = 10;
+  
+main2 :
+  計算一個正整數有幾個1
+  int i=15;
+  提示 :(Binary representation)
+    0000 1111 (15)  有4個1
+    0000 0001 (1)   有1個1
+    1000 0001 (129) 有2個1
+    
+main3 :
+  get binary (int n)
+  請寫出一個 function 印出對應的正整數 (int, 32bits) binary representation
+  output : binary representation
+  4個bits為單位
+  6   -> 0110
+  16  -> 0001 0000
+  255 -> 1111 1111
+  
+main4 :
+  round_func(float f)
+  1.4  -> 1
+  2.6  -> 3
+  2.34 -> 2
+  9.2344567789 -> 9
+  
+main5 :
+  印出一個聖誕樹
+  print_top, print_truck, print_spaces. print_stars
+        *
+       ***
+      *****
+        *
+       ***
+      *****
+     *******
+    *********
+        *
+       ***
+      *****
+     *******
+    *********
+   ***********
+  *************
+        *
+        *
+        *
+        *
+        *
+
+main6 :
+  給 n>2 的數字
+  屋頂高n
+  房子高n
+     *
+    ***
+   *****
+  *******
+  *******
+  *     *
+  *     *
+  *     *
+  *     *
+  *******
+  
+main7 :
+  把整數數字(int)的加起來
+  答案只有整數
+  <e.g>
+    int main(){
+      int a =-999;
+      int b = 999;
+      //a=-9+9+9=9
+      //b=9+9+9=18
+      
+main8 :
+  印出兩個三角形，一個倒的一個正的
+  *******
+   *****
+    ***
+     *
+    ***
+   *****
+  *******
+  
+main9 :
+  下列程式碼會停嗎?為什麼?
+  int main(){
+    int i,j;
+    for(i=0;i<100,j!=3;i++.j++){
+      printf("i=%d\n",i);
+    }
+    return 0;
+  }
+  
+main10 :
+  把正整數倒轉
+  input:1234
+  output:4321
+  
+  
